@@ -1,0 +1,17 @@
+El método sort () ordena una matriz alfabéticamente, todos los valores se toman tipo cadena, por eso si se ingresa numeros no funciona, 25 es mayor que 100, porque 2 es mayor que 1.
+
+Para corregir este error agregamos un metodo de comparacion para definir un orden y una funcion flecha para retornar.
+
+Cuando la función sort () compara dos valores, envía los valores a la función de comparación y los ordena de la siguiente forma:
+
+Si el resultado es negativo a se ordena antes que b.
+
+5 - 10 = -5
+
+Si el resultado es positivo b se ordena antes que a.
+
+10 - 5 = 5
+
+Si el resultado es 0, no se realizan cambios con el orden de clasificación de los dos valores.
+
+5 - 5 = 0
